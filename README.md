@@ -21,7 +21,7 @@ Sistem prediksi status produk (Laris / Tidak Laris) berbasis Machine Learning de
 ### 1. Clone & Setup
  
 ```bash
-git clone <repo-url>
+git clone https://github.com/janiceiv/mini-ai-sales-prediction-system
 cd ai-sales-prediction
 ```
  
