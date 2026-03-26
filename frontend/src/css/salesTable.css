@@ -1,0 +1,95 @@
+/* Container Utama */
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  color: #333;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+/* Wrapper untuk Scroll Horizontal di Layar Kecil */
+.table-wrapper {
+  overflow-x: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Gaya Tabel */
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  text-align: left;
+}
+
+.sales-table thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.sales-table th, 
+.sales-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Efek Zebra dan Hover */
+.sales-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.sales-table tbody tr:hover {
+  background-color: #f1f4f8;
+  transition: 0.3s;
+}
+
+/* Gaya Pagination */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: 1px solid #4a90e2;
+  background-color: #fff;
+  color: #4a90e2;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn:disabled {
+  border-color: #ccc;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.page-info {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Optional: Status Label */
+.status-label {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  background-color: #e1f7ec;
+  color: #2ecc71;
+}
