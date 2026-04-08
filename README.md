@@ -13,7 +13,7 @@ Sistem prediksi status produk (Laris / Tidak Laris) berbasis Machine Learning de
 2. Sales Dashboard <br/>
    Dashboard Load  → GET /sales → Bckend membaca sales_data.csv → JSON → Tabel Sales
 3. Prediksi Produk <br/>
-   User input form → → POST /predict → Backend load model.pkl → model memprediksi → Return hasil prediksi "Laris"/"Tidak" → Tampilkan hasil prediksi di UI
+   User input form → POST /predict → Backend load model.pkl → model memprediksi → Return hasil prediksi "Laris"/"Tidak" → Tampilkan hasil prediksi di UI
 
 ## Cara Menjalankan Project
 
